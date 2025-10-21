@@ -57,6 +57,7 @@ temp/
 *.gif
 *.webp
 !images/.gitkeep
+!images/wechat_contact.jpg
 
 # OS
 Thumbs.db
