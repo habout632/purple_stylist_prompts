@@ -5,18 +5,41 @@ AI造型师提示词库 - 为AI图像生成提供专业的发型设计配置和�
 ## 📱 快速体验
 
 <div align="center">
-  
-### 微信小程序体验
 
-扫描下方小程序码，立即体验 AI 发型设计：
+<table>
+<tr>
+<td align="center" width="50%">
 
-<img src="images/applet.jpg" alt="紫色AI造型师小程序码" width="300"/>
+### 🎨 微信小程序体验
 
-*扫码体验「紫色AI造型师」小程序*
+扫描小程序码，立即体验 AI 发型设计
+
+<img src="images/applet.jpg" alt="紫色AI造型师小程序码" width="280"/>
+
+**扫码体验「紫色AI造型师」**
+
+4秒完成换发型 · 21种风格 · 保持本人形象
+
+</td>
+<td align="center" width="50%">
+
+### 💬 加入微信交流群
+
+扫码加微信，备注「AI发型设计」拉你入群
+
+<img src="images/wechat_contact.jpg" alt="微信联系方式" width="280"/>
+
+**一起交流分享**
+
+💡 设计经验 · 🎨 提示词技巧 · 🤖 模型使用
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 效果演示
+### 📸 效果演示
 
 <img src="images/demo.png" alt="AI发型设计效果展示" width="100%"/>
 
@@ -507,29 +530,15 @@ A: 可以！在 `HAIR_COLORS` 数组中添加新的发色对象即可。
 
 MIT License
 
-## 💬 联系方式
+## 💬 联系与支持
 
 ### GitHub 交流
-- 📧 如有问题或建议，欢迎提交 Issue
-- 🌟 觉得项目有用？请给个 Star！
+- 📧 如有问题或建议，欢迎提交 [Issue](https://github.com/habout632/purple_stylist_prompts/issues)
+- 🌟 觉得项目有用？请给个 [Star](https://github.com/habout632/purple_stylist_prompts) ⭐
 - 🤝 欢迎 Fork 并提交 Pull Request
 
 ### 微信交流群
-
-扫描下方二维码添加微信，备注「AI发型设计」，拉你进群交流：
-
-<div align="center">
-  <img src="images/wechat_contact.jpg" alt="微信联系方式" width="300"/>
-  <p><i>扫码加微信，加入 AI 发型设计交流群</i></p>
-</div>
-
-**交流内容**：
-- 💡 发型设计经验分享
-- 🎨 提示词优化技巧
-- 🤖 AI 模型使用心得
-- 🐛 问题反馈和解决方案
-- 🚀 新功能建议和讨论
-- 📸 效果展示和案例分享
+👆 **请扫描页面顶部的微信二维码加入交流群**，与更多 AI 发型设计爱好者交流学习！
 
 ---
 
