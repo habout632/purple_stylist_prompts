@@ -1,0 +1,216 @@
+# 发型分类定义
+# 用于组织和筛选不同类型的发型
+
+categories:
+  - id: long_hair
+    name: 长发
+    name_en: Long Hair
+    description: 肩部以下的长发造型
+    icon: "💁‍♀️"
+    typical_length: "肩部以下至腰部"
+    
+  - id: medium_hair
+    name: 中长发
+    name_en: Medium Hair
+    description: 下巴到肩部长度的发型
+    icon: "👩"
+    typical_length: "下巴至肩部"
+    
+  - id: short_hair
+    name: 短发
+    name_en: Short Hair
+    description: 耳朵到下巴长度的短发
+    icon: "👩‍🦱"
+    typical_length: "耳朵至下巴"
+    
+  - id: mens_short
+    name: 男士短发
+    name_en: Men's Short Hair
+    description: 男性专属的短发造型
+    icon: "👨"
+    typical_length: "超短至耳部"
+    
+  - id: mens_medium
+    name: 男士中短发
+    name_en: Men's Medium Hair
+    description: 男性中等长度发型
+    icon: "👨‍🦱"
+    typical_length: "耳部至下巴"
+
+# 风格流派分类
+style_types:
+  - id: street_trendy
+    name: 街头潮流
+    name_en: Street Trendy
+    description: "现代街头风格: undercut、fade、textured crop"
+    characteristics: [时尚, 年轻, 个性]
+    
+  - id: korean_trendy
+    name: 韩式潮流
+    name_en: Korean Trendy
+    description: "韩流风格: 二分区、纹理烫、空气感"
+    characteristics: [柔和, 清新, 时尚]
+    
+  - id: european_trendy
+    name: 欧美潮流
+    name_en: European Trendy
+    description: "欧美风格: pompadour、slick back、messy fringe"
+    characteristics: [大气, 立体, 帅气]
+    
+  - id: artistic_retro
+    name: 文艺复古
+    name_en: Artistic Retro
+    description: "复古风格: vintage waves、side-swept、classic"
+    characteristics: [优雅, 经典, 怀旧]
+    
+  - id: avant_garde
+    name: 前卫实验
+    name_en: Avant Garde
+    description: "前卫风格: asymmetrical、color blocking、geometric"
+    characteristics: [大胆, 创新, 艺术]
+    
+  - id: natural_casual
+    name: 自然慵懒
+    name_en: Natural Casual
+    description: "自然风格: messy、effortless、tousled"
+    characteristics: [随性, 轻松, 舒适]
+    
+  - id: business_elite
+    name: 商务精英
+    name_en: Business Elite
+    description: "商务风格: clean lines、polished、sophisticated"
+    characteristics: [专业, 干练, 精致]
+    
+  - id: urban_casual
+    name: 休闲都市
+    name_en: Urban Casual
+    description: "都市休闲: casual chic、relaxed、urban"
+    characteristics: [轻松, 时尚, 都市]
+    
+  - id: sporty_active
+    name: 运动活力
+    name_en: Sporty Active
+    description: "运动风格: athletic cut、fresh buzz、dynamic"
+    characteristics: [活力, 清爽, 简约]
+
+# 脸型分类
+face_shapes:
+  - id: oval
+    name: 鹅蛋脸
+    name_en: Oval Face
+    description: 最标准的脸型，适合大多数发型
+    characteristics: 额头略宽于下巴，脸部线条柔和
+    suitable_styles: [几乎所有发型]
+    
+  - id: round
+    name: 圆脸
+    name_en: Round Face
+    description: 脸部宽度和长度接近，线条圆润
+    characteristics: 脸颊饱满，下巴圆润
+    suitable_styles: [长发, 层次发型, 侧分]
+    avoid_styles: [齐刘海, 过于贴合的短发]
+    
+  - id: square
+    name: 方脸
+    name_en: Square Face
+    description: 额头、颧骨、下颌宽度相近
+    characteristics: 棱角分明，下颌线条明显
+    suitable_styles: [柔和卷发, 层次发型, 侧分长发]
+    avoid_styles: [过于直硬的发型, 中分]
+    
+  - id: heart
+    name: 心形脸
+    name_en: Heart-Shaped Face
+    description: 额头较宽，下巴尖细
+    characteristics: 上宽下窄，颧骨突出
+    suitable_styles: [下巴附近有volume的发型, 侧分]
+    avoid_styles: [过于蓬松的顶部]
+    
+  - id: long
+    name: 长脸
+    name_en: Long Face
+    description: 脸部长度明显大于宽度
+    characteristics: 脸型较长，额头较高
+    suitable_styles: [刘海, 层次中长发, 横向volume]
+    avoid_styles: [过长的直发, 中分]
+    
+  - id: diamond
+    name: 菱形脸
+    name_en: Diamond Face
+    description: 颧骨最宽，额头和下巴较窄
+    characteristics: 颧骨突出，尖下巴
+    suitable_styles: [侧分, 刘海, 柔和卷发]
+    avoid_styles: [过于贴脸的发型]
+    
+  - id: triangle
+    name: 三角脸（梨形脸）
+    name_en: Triangle Face
+    description: 下颌宽，额头窄
+    characteristics: 下宽上窄
+    suitable_styles: [顶部有volume, 刘海]
+    avoid_styles: [过于贴合的顶部]
+
+# 难度等级
+difficulty_levels:
+  - level: easy
+    name: 简单
+    description: 易于打理和维护，适合新手
+    maintenance: 低维护
+    
+  - level: medium
+    name: 中等
+    description: 需要一定的造型技巧和产品
+    maintenance: 中等维护
+    
+  - level: high
+    name: 困难
+    description: 需要专业技巧和定期维护
+    maintenance: 高维护
+
+# 适用场合
+occasions:
+  - id: daily
+    name: 日常
+    name_en: Daily
+    description: 适合日常生活的发型
+    
+  - id: workplace
+    name: 职场
+    name_en: Workplace
+    description: 适合办公室和工作环境
+    
+  - id: business
+    name: 商务
+    name_en: Business
+    description: 适合正式商务场合
+    
+  - id: casual
+    name: 休闲
+    name_en: Casual
+    description: 适合休闲放松场合
+    
+  - id: party
+    name: 派对
+    name_en: Party
+    description: 适合派对和聚会
+    
+  - id: date
+    name: 约会
+    name_en: Date
+    description: 适合约会场合
+    
+  - id: wedding
+    name: 婚礼
+    name_en: Wedding
+    description: 适合婚礼等正式场合
+    
+  - id: sports
+    name: 运动
+    name_en: Sports
+    description: 适合运动和健身
+    
+  - id: artistic
+    name: 艺术活动
+    name_en: Artistic Events
+    description: 适合艺术展览、时装秀等创意场合
+

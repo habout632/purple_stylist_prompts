@@ -1,0 +1,3 @@
+# Python 依赖包
+PyYAML>=6.0
+
